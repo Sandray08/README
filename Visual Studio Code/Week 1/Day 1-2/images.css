@@ -1,0 +1,27 @@
+h1 {
+    font-size: 90px;
+}
+
+h3 {
+    color: plum;
+}
+
+p {
+    margin: 35px 0px;
+    color: plum;
+}
+
+div {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+ width: 210px;   
+ background-color: rgb(182, 105, 150);
+ border: 10px solid pink;
+ padding: 20px;
+ margin: 20px;
+}

@@ -1,0 +1,79 @@
+input {
+    width: 40%;
+}
+
+label {
+    font-family: Tahoma;
+}
+
+
+h1, h2, p {
+    color: palevioletred;
+}
+
+div > p {
+    color: goldenrod;
+}
+
+input[type=text], input[type=email] {
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+
+textarea {
+    border: 2px solid purple;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    width: 50%;
+}
+
+.transitionDiv{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: colorShift;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+
+
+.transitionDiv:hover {
+
+}
+
+div:hover {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes colorShift {
+    0% {
+        background: turquoise;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background: violet;
+        left: 200px;
+        top: opx;
+    }
+    50% {
+        background: pink;
+        left: 200px;
+        top: 200px;
+    }
+    100% {
+        background: blueviolet;
+        left: 200px;
+        top: 200px;
+    }
+}
+
